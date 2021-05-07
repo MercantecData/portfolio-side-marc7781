@@ -1,0 +1,65 @@
+@font-face{
+    font-family: MyFont;
+    src: url(Prototype.ttf);
+}
+body{
+    background-color: lightsteelblue;
+}
+.menu{
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    margin: -8px;
+}
+button{
+    background-color: blue;
+    border: none;
+    padding: 40px;
+    cursor: pointer;
+    font-family: MyFont;
+}
+button.forside{
+    font-size: 35px;
+}
+button.portfolie{
+    float: right;
+    font-size: 30px;
+}
+button.om_mig{
+    float: right;
+    font-size: 30px;
+}
+h1.overskrift{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: MyFont;
+    font-size: 400%;
+}
+h3.brødtekst{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: MyFont;
+    font-size: 200%;
+    text-align: center;
+}
+.bund{
+    background-color: blue;
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    margin: -8px;
+    margin-bottom: -9px;
+    font-size: 140%;
+}
+.venstre{
+    float: left;
+    padding-left: 10%;
+}
+.højre{
+    float: right;
+    padding-right: 10%;
+}
